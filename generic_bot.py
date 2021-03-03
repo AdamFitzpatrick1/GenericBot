@@ -40,7 +40,7 @@ async def commands(ctx):
 
 @client.command()
 async def funnyjoke(ctx):
-    await ctx.send('')
+    await ctx.send('Leyton')
 
 
 
@@ -95,4 +95,4 @@ async def gif(ctx):
     await ctx.send(random.choice(randomGif))
 
 
-client.run('')
+client.run('ODE2MzA2MTgxOTI0MTkyMjg3.YD5CYA.sMstF41zqOXAggRB9IZ6v2QyaMo')

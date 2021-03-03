@@ -1,7 +1,7 @@
 import discord
-
+from discord.ext import commands
 import random
-
+import datetime
 
 client = commands.Bot(command_prefix='.')
 
@@ -93,6 +93,7 @@ async def gif(ctx):
     randomGif= ['https://media.giphy.com/media/Aff4ryYiacUO4/giphy.gif', 'https://media.giphy.com/media/8VrtCswiLDNnO/giphy.gif', 'https://media.giphy.com/media/j6SbREYp7TtE90T9cl/giphy.gif', 'https://media.giphy.com/media/MdGUUTVHk7s1BA5Pyk/giphy.gif', 'https://media.giphy.com/media/3o6ZtpRoYe9wbyfcBi/giphy.gif', 'https://gfycat.com/blackandwhitebonyindusriverdolphin']
 
     await ctx.send(random.choice(randomGif))
+    
+bot.run(os.environ["TOKEN"])
 
 
-client.run('ODE2MzA2MTgxOTI0MTkyMjg3.YD5CYA.sMstF41zqOXAggRB9IZ6v2QyaMo')

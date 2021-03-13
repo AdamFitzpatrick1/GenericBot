@@ -41,7 +41,7 @@ async def commands(ctx):
 
 @client.command()
 async def funnyjoke(ctx):
-    await ctx.send('Leyton')
+    await ctx.send('')
 
 
 
